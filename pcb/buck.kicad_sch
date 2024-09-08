@@ -4,12 +4,12 @@
 	(generator_version "8.0")
 	(uuid "acec1250-97b2-4adf-b1d5-3bedc80451a2")
 	(paper "A4")
-    (title_block
-                (title "buck")
-                (date "${DATE}")
-                (rev "${VERSION}")
-                (company "Qetesh")
-            )
+	(title_block
+		(title "buck")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "Qetesh")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers hide)

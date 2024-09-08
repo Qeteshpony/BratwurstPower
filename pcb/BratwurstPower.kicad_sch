@@ -4,12 +4,12 @@
 	(generator_version "8.0")
 	(uuid "d3b20f0a-e666-4f64-bba3-6679d961a6dd")
 	(paper "A4")
-    (title_block
-                (title "BratwurstPower")
-                (date "${DATE}")
-                (rev "${VERSION}")
-                (company "Qetesh")
-            )
+	(title_block
+		(title "BratwurstPower")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "Qetesh")
+	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack_Switch"
 			(pin_names hide)
@@ -2453,16 +2453,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 69.85) (xy 107.95 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00125b5a-adf2-4713-adf1-a3390561a1cc")
-	)
-	(wire
-		(pts
 			(xy 170.18 86.36) (xy 170.18 85.09)
 		)
 		(stroke
@@ -2470,16 +2460,6 @@
 			(type default)
 		)
 		(uuid "03452a7c-9e5a-4eff-a521-28f7ff99035c")
-	)
-	(wire
-		(pts
-			(xy 72.39 72.39) (xy 71.12 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0406af31-594c-44ec-a560-67bf4e16abb8")
 	)
 	(wire
 		(pts
@@ -2970,16 +2950,6 @@
 			(type default)
 		)
 		(uuid "7938c94e-f37f-4e00-ad21-d68b002f3791")
-	)
-	(wire
-		(pts
-			(xy 72.39 74.93) (xy 72.39 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cc95f21-4701-46b3-9e85-f2c916da3304")
 	)
 	(wire
 		(pts
@@ -4190,7 +4160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
+		(property "Footprint" "BratwurstPower:BarrelJack_Combined"
 			(at 63.5 40.386 0)
 			(effects
 				(font
@@ -6014,77 +5984,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 66.04 69.85 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f52967fd-2a6f-4505-a092-0737e68998c7")
-		(property "Reference" "J3"
-			(at 63.5 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Power IN"
-			(at 63.5 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal"
-			(at 66.04 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 66.04 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f35011b0-390f-4d10-b6e1-be7a6d99cfe9")
-		)
-		(pin "1"
-			(uuid "5c634718-fa97-4a34-a081-a8fa011cd88c")
-		)
-		(instances
-			(project ""
-				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 200.66 120.65 0)
 		(unit 1)
@@ -6145,72 +6044,6 @@
 			(project "RaspiPowerSupply"
 				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 72.39 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb6ff26c-6003-4714-8b74-69c8ad26ba3f")
-		(property "Reference" "#PWR04"
-			(at 72.39 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2a69756-b0de-4710-a360-c7f64da413d2")
-		)
-		(instances
-			(project "RaspiPowerSupply"
-				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
