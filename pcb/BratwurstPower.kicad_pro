@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.3,
-          "width": 1.5
+          "drill": 0.75,
+          "height": 1.75,
+          "width": 1.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -500,7 +500,24 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(194, 194, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -517,7 +534,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -534,7 +551,24 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 194, 194)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
         "diff_pair_gap": 0.2032,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.261112,
@@ -575,6 +609,18 @@
       {
         "netclass": "USB",
         "pattern": "/Du*"
+      },
+      {
+        "netclass": "3V3",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "SDA"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "SCL"
       }
     ]
   },
@@ -586,7 +632,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "BratwurstPower.step",
       "svg": "",
       "vrml": ""
     },
@@ -729,6 +775,22 @@
     [
       "7fe7df9d-9780-4313-b2a8-03785bd32b30",
       "BuckEXT"
+    ],
+    [
+      "8a3191fc-7c20-49b9-9d54-dfc4f46cdfc8",
+      "MeterRaspi"
+    ],
+    [
+      "a9c63140-83e4-4d80-837c-a622e8533650",
+      "MeterUSB1"
+    ],
+    [
+      "5ab3db1b-0172-4716-ab72-7eacb423cebe",
+      "MeterUSB2"
+    ],
+    [
+      "a3998427-06e3-4c59-b1a3-765cf9328e41",
+      "MeterEXT"
     ]
   ],
   "text_variables": {
