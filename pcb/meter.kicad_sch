@@ -1125,10 +1125,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "40affc7a-ee8f-4793-ae3b-7d789a76d46d")
+			(uuid "7069f468-c3ad-4c84-8677-d59f9a029975")
 		)
 		(instances
 			(project "BratwurstPower"
+				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/58adebab-a6f2-4077-9445-05ca56ea4466"
+					(reference "#PWR044")
+					(unit 1)
+				)
 				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/5ab3db1b-0172-4716-ab72-7eacb423cebe"
 					(reference "#PWR035")
 					(unit 1)
@@ -1158,7 +1162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08b16408-5f1b-4cb0-b0ce-f0c60361ffb7")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG0104"
 			(at 106.045 97.79 0)
 			(effects
 				(font
@@ -1204,24 +1208,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "94dde216-5a5d-4723-9707-340686055886")
+			(uuid "58562ab6-9284-433d-9dd6-f55ab74efba2")
 		)
 		(instances
-			(project ""
+			(project "BratwurstPower"
+				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/58adebab-a6f2-4077-9445-05ca56ea4466"
+					(reference "#FLG0104")
+					(unit 1)
+				)
 				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/5ab3db1b-0172-4716-ab72-7eacb423cebe"
-					(reference "#FLG06")
+					(reference "#FLG0102")
 					(unit 1)
 				)
 				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/8a3191fc-7c20-49b9-9d54-dfc4f46cdfc8"
-					(reference "#FLG04")
+					(reference "#FLG08")
 					(unit 1)
 				)
 				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/a3998427-06e3-4c59-b1a3-765cf9328e41"
-					(reference "#FLG07")
+					(reference "#FLG0103")
 					(unit 1)
 				)
 				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/a9c63140-83e4-4d80-837c-a622e8533650"
-					(reference "#FLG05")
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -1282,10 +1290,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b480792d-26dd-4931-84a0-dd05442f55e7")
+			(uuid "7b1ab59f-d667-4759-85b5-84f806f30ef3")
 		)
 		(instances
 			(project "BratwurstPower"
+				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/58adebab-a6f2-4077-9445-05ca56ea4466"
+					(reference "#PWR042")
+					(unit 1)
+				)
 				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/5ab3db1b-0172-4716-ab72-7eacb423cebe"
 					(reference "#PWR033")
 					(unit 1)
@@ -1368,13 +1380,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9025eee-9091-467d-8b8c-757c35359a23")
+			(uuid "677e0c97-ec44-4599-96fc-0380ecd56968")
 		)
 		(pin "2"
-			(uuid "3cd0e05d-7bb1-4e1c-b9d8-0c2918d94df8")
+			(uuid "802b37c0-38df-4df3-8a41-0b3badd8998b")
 		)
 		(instances
 			(project "BratwurstPower"
+				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/58adebab-a6f2-4077-9445-05ca56ea4466"
+					(reference "R40")
+					(unit 1)
+				)
 				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/5ab3db1b-0172-4716-ab72-7eacb423cebe"
 					(reference "R33")
 					(unit 1)
@@ -1450,10 +1466,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "950359d1-978f-4cae-be1f-29b2631f2ae3")
+			(uuid "ccc4948e-fcb7-4108-9e21-ee47d28f7656")
 		)
 		(instances
 			(project "BratwurstPower"
+				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/58adebab-a6f2-4077-9445-05ca56ea4466"
+					(reference "#PWR043")
+					(unit 1)
+				)
 				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/5ab3db1b-0172-4716-ab72-7eacb423cebe"
 					(reference "#PWR034")
 					(unit 1)
@@ -1538,31 +1558,35 @@
 			)
 		)
 		(pin "8"
-			(uuid "c5772df7-984d-488e-ac73-b21ebc7d269c")
+			(uuid "df4f081e-f154-4303-a991-2e0faec58458")
 		)
 		(pin "7"
-			(uuid "23f1ef8d-05da-4cc5-a12d-80e35dccada6")
+			(uuid "68ee8b0e-824d-4d63-a1b5-ee7c8bbd544e")
 		)
 		(pin "1"
-			(uuid "2b4685ee-62f6-446b-9f74-3df8e6959b9b")
+			(uuid "2c018b40-9553-4a75-9650-03681d8c87bb")
 		)
 		(pin "2"
-			(uuid "295f6a4a-e21f-4289-b1e4-ca00c1913041")
+			(uuid "3725afa2-ee0c-4f35-9aa7-a5a22dfa2203")
 		)
 		(pin "5"
-			(uuid "60cf4b43-d187-4760-ab0b-41d45671dd86")
+			(uuid "87df684e-6e34-4be0-8c29-d3460e343f20")
 		)
 		(pin "4"
-			(uuid "4974e9e5-13f4-4df5-8dde-097ce44b1e1d")
+			(uuid "2dd629f3-38fd-4d27-bdbc-002231da1cd9")
 		)
 		(pin "3"
-			(uuid "dba6f824-9284-4147-8ab6-c90e39782ccd")
+			(uuid "e3dbe6d6-e45c-4acf-851a-d1471ab11fd5")
 		)
 		(pin "6"
-			(uuid "ac4dc70a-848c-4ed5-b0ff-1236ae0a8532")
+			(uuid "a7e82ad5-b68e-492a-9481-2d31b54383e3")
 		)
 		(instances
 			(project "BratwurstPower"
+				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/58adebab-a6f2-4077-9445-05ca56ea4466"
+					(reference "U10")
+					(unit 1)
+				)
 				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/5ab3db1b-0172-4716-ab72-7eacb423cebe"
 					(reference "U8")
 					(unit 1)
@@ -1646,13 +1670,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "77d88e4f-f13f-4dab-9e30-f11de027bed6")
+			(uuid "eab49988-6bad-464d-95e2-eeb9c0e87c54")
 		)
 		(pin "2"
-			(uuid "e0c65390-466a-4ca5-8bc1-9d7ee98f8034")
+			(uuid "64485853-090a-47c4-818b-6e381393c6ee")
 		)
 		(instances
 			(project "BratwurstPower"
+				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/58adebab-a6f2-4077-9445-05ca56ea4466"
+					(reference "C39")
+					(unit 1)
+				)
 				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/5ab3db1b-0172-4716-ab72-7eacb423cebe"
 					(reference "C35")
 					(unit 1)
@@ -1735,13 +1763,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "17d77ffe-9e42-46e7-bba0-ccfcea3183d1")
+			(uuid "7c72d457-3c7c-4c32-8ba6-676cc8f90cd6")
 		)
 		(pin "2"
-			(uuid "09233bf6-a567-4e69-a807-753f5e404af6")
+			(uuid "6ddad61e-b4ce-472f-a4c0-71b07a022955")
 		)
 		(instances
 			(project "BratwurstPower"
+				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/58adebab-a6f2-4077-9445-05ca56ea4466"
+					(reference "C38")
+					(unit 1)
+				)
 				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/5ab3db1b-0172-4716-ab72-7eacb423cebe"
 					(reference "C34")
 					(unit 1)
@@ -1826,13 +1858,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "d794a609-31fc-4273-8a16-947e39cb8826")
+			(uuid "6da141c2-9764-4b9b-bba8-da42cc92491b")
 		)
 		(pin "2"
-			(uuid "8070e89a-1439-4187-b1f6-e518d819c64b")
+			(uuid "8f131ae6-d12b-4473-9236-bcd3e28d4c83")
 		)
 		(instances
 			(project "BratwurstPower"
+				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/58adebab-a6f2-4077-9445-05ca56ea4466"
+					(reference "R41")
+					(unit 1)
+				)
 				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/5ab3db1b-0172-4716-ab72-7eacb423cebe"
 					(reference "R34")
 					(unit 1)
@@ -1915,13 +1951,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "a713bcb8-a1a1-416c-8811-254c7290ddae")
+			(uuid "e9ec5db8-340b-49ab-8b43-87f3149d06ed")
 		)
 		(pin "2"
-			(uuid "cc1f12a9-c26a-46c4-9e4e-759671ddb204")
+			(uuid "3188b1ee-51e5-42b6-9cb7-3ef2afac04e9")
 		)
 		(instances
 			(project "BratwurstPower"
+				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/58adebab-a6f2-4077-9445-05ca56ea4466"
+					(reference "R42")
+					(unit 1)
+				)
 				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd/5ab3db1b-0172-4716-ab72-7eacb423cebe"
 					(reference "R35")
 					(unit 1)
