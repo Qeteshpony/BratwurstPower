@@ -6489,6 +6489,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19077459"
+			(at 50.8 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e008949-24bb-49a3-962c-0f6e8fba37b5")
 		)
@@ -6641,7 +6650,7 @@
 		(at 179.07 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6998,7 +7007,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7212,7 +7221,7 @@
 		(at 179.07 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8083,7 +8092,7 @@
 		(at 179.07 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8408,6 +8417,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25082"
+			(at 64.77 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "68760d0e-a465-4c3b-a806-59826b52faa9")
 		)
@@ -8498,7 +8516,7 @@
 		(at 31.75 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9404,6 +9422,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25741"
+			(at 43.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b208121a-3b9a-4d62-b87f-92c1b4260639")
 		)
@@ -9537,6 +9564,15 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 43.18 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15127"
 			(at 43.18 31.75 0)
 			(effects
 				(font
@@ -9838,7 +9874,7 @@
 		(at 179.07 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
