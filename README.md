@@ -16,9 +16,7 @@ In addition to that it can supply two USB devices and another external device wi
 
 Each outputs voltage can be calibrated from ~5.1 to ~5.5 V with a trimpot and the two USB outputs are passing USB2 signals from two USB-Mini connectors that can be hooked to the Raspberry Pi. If you need USB3, you can use an external Y-cable. 
 
-There is an INA219 power monitor connected to each output with a 10mΩ shunt resistor to measure current and voltage. 
-
-A PCA9557 I/O expander allows to switch off power to the USB-ports and the external power.
+There is an INA219 power monitor connected to the main input and each output with a 10mΩ shunt resistor to measure current and voltage. 
 
 | Device  | I2C-Address |
 |:----------|:----------|
@@ -26,16 +24,19 @@ A PCA9557 I/O expander allows to switch off power to the USB-ports and the exter
 | INA219 USB1  | 0x41   |
 | INA219 USB2  | 0x42   |
 | INA219 EXT   | 0x43   |
+| INA219 Main  | 0x44   |
 | PCA9557      | 0x1F   |
+
+A PCA9557 I/O expander allows to switch off power to the USB-ports and the external power. It also has an LED connected that can be used for showing a warning state or similar. The other 4 pins are broken out on a header.
 
 | PCA9557 Pin | Function |
 |:----------|:----------|
 | IO0 | LED |
-| IO1 | N/C |
-| IO2 | N/C |
-| IO3 | N/C |
-| IO4 | N/C |
-| IO5 | USB1 |
-| IO6 | USB2 |
+| IO1 | PIN |
+| IO2 | PIN |
+| IO3 | PIN |
+| IO4 | PIN |
+| IO5 | USB2 |
+| IO6 | USB1 |
 | IO7 | EXT |
 
