@@ -31,10 +31,10 @@ A PCA9557 I/O expander allows to switch off power to the USB-ports and the exter
 | PCA9557 Pin | Function |
 |:----------|:----------|
 | IO0 | LED |
-| IO1 | N/A |
-| IO2 | N/A |
-| IO3 | N/A |
-| IO4 | N/A |
+| IO1 | N/C |
+| IO2 | N/C |
+| IO3 | N/C |
+| IO4 | N/C |
 | IO5 | USB1 |
 | IO6 | USB2 |
 | IO7 | EXT |
