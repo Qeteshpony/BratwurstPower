@@ -1,4 +1,4 @@
-(footprint "BratwurstLogo"
+(footprint "BratwurstLogo_Filled"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "BratwurstLogo"
+	(property "Value" "BratwurstLogo_Filled"
 		(at 0.09 -0.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -69,6 +69,17 @@
 	)
 	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
 		allow_soldermask_bridges
+	)
+	(fp_circle
+		(center 0 0)
+		(end 8.25 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "a74d69f7-c2ef-4bd9-9829-6566c8ce7576")
 	)
 	(fp_poly
 		(pts
