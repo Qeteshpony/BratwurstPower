@@ -621,6 +621,14 @@
       {
         "netclass": "I2C",
         "pattern": "SCL"
+      },
+      {
+        "netclass": "3V3",
+        "pattern": "/+3V3*"
+      },
+      {
+        "netclass": "12V",
+        "pattern": "/+12V*"
       }
     ]
   },
