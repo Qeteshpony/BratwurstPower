@@ -2,7 +2,8 @@
 
 [![CI](https://github.com/Qeteshpony/BratwurstPower/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Qeteshpony/BratwurstPower/actions/workflows/ci.yml)
 
-![3D Render](https://qeteshpony.github.io/BratwurstPower/3D/BratwurstPower-3D_top.png)
+![3D Render Top](https://qeteshpony.github.io/BratwurstPower/3D/BratwurstPower-3D_top.png)
+![3D Render Bottom](https://qeteshpony.github.io/BratwurstPower/3D/BratwurstPower-3D_bottom.png)
 
 [Hardware Documentation](https://qeteshpony.github.io/BratwurstPower)
 
@@ -14,7 +15,7 @@ This board can be mounted underneath a Raspberry Pi and deliver stable 5.x V wit
 
 In addition to that it can supply two USB devices and another external device with also 5.x V and 3 A each, provided the input has enough power. 
 
-Each outputs voltage can be calibrated from ~5.1 to ~5.5 V with a trimpot and the two USB outputs are passing USB2 signals from two USB-Mini connectors that can be hooked to the Raspberry Pi. If you need USB3, you can use an external Y-cable. 
+Each outputs voltage can be calibrated from ~5.1 to ~5.5 V with a trimpot and the two USB outputs are passing USB2 signals from two USB-C connectors that can be hooked up to the Raspberry Pi. If you need USB3, you can use an external Y-cable. 
 
 There is an INA219 power monitor connected to the main input and each output with a 10mΩ shunt resistor to measure current and voltage. 
 
