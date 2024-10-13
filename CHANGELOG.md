@@ -1,5 +1,28 @@
 # Changelog
 
+## [2.0.0](https://github.com/Qeteshpony/BratwurstPower/compare/v1.0.0...v2.0.0) (2024-10-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* Replace USB mini and Raspi port with USB-C
+
+### Features
+
+* add connector for USB OTG connection ([87fe823](https://github.com/Qeteshpony/BratwurstPower/commit/87fe823e94b833d1a0f5c317ec925b5917b6bf1c))
+* Replace USB mini and Raspi port with USB-C ([87fe823](https://github.com/Qeteshpony/BratwurstPower/commit/87fe823e94b833d1a0f5c317ec925b5917b6bf1c))
+
+
+### Bug Fixes
+
+* add capacitor to 3V3 rail ([2a91989](https://github.com/Qeteshpony/BratwurstPower/commit/2a91989fa952c24f299fbd1cccfdc1305d00f5c8))
+* add clearance around USB traces ([64b67dd](https://github.com/Qeteshpony/BratwurstPower/commit/64b67ddab612e38d8eadc1a45ddca2e44e5cca85))
+* add copper under silkscreen ([0eb251c](https://github.com/Qeteshpony/BratwurstPower/commit/0eb251c24585daa32aa4f257d0572fac3db576bc))
+* add GND plane on top layer ([5fe6761](https://github.com/Qeteshpony/BratwurstPower/commit/5fe676162f0ecc641008cbd7f207ba13c2c5c243))
+* part numbers ([1900d4c](https://github.com/Qeteshpony/BratwurstPower/commit/1900d4c72c88179a9a271730e865d1acf6648d65))
+* remove accidental antennas ([9da1ef0](https://github.com/Qeteshpony/BratwurstPower/commit/9da1ef002d8e76d86329d41a801374e329e6e917))
+* via stitching between GND layers ([d20805e](https://github.com/Qeteshpony/BratwurstPower/commit/d20805ef16ecb8689d480c174ccf6b0245784b35))
+
 ## 1.0.0 (2024-09-28)
 
 
