@@ -3652,6 +3652,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C7171"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39c616c7-ee75-4157-96f6-e2849b0cec78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/0b7ce1f8-0181-4578-b4a6-7137bbe65e72")
 		(sheetname "Root")
@@ -6388,7 +6401,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C375547"
+		(property "LCSC" "C72041"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")

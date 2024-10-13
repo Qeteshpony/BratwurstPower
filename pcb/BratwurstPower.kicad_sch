@@ -6919,6 +6919,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7171"
+			(at 76.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "30804416-086b-45ce-9e1f-561ccdff7ebf")
 		)
@@ -9911,7 +9920,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C375547"
+		(property "LCSC" "C72041"
 			(at 81.28 130.81 0)
 			(effects
 				(font
