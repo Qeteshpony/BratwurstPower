@@ -2671,6 +2671,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b853615-3f5c-496f-9c4a-3f8fad08a466")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/79c3c3e9-5e42-457c-a66f-0dc39102be48")
 		(sheetname "Root")
@@ -3413,7 +3426,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25890"
+		(property "LCSC" "C25879"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4268,7 +4281,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3401A"
+		(property "Value" "HL3415A"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "aada58ed-22b7-447e-aee5-78873c9a4604")
@@ -4292,7 +4305,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2407121622_hongjiacheng-HL3415A_C28646270.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4318,7 +4331,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15127"
+		(property "LCSC" "C28646270"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15636,7 +15649,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2k2"
 			(at 0 1 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15687,7 +15700,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C128549"
+		(property "LCSC" "C145162"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16149,7 +16162,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25765"
+		(property "LCSC" "C25762"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17107,7 +17120,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2k2"
 			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17158,7 +17171,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C128549"
+		(property "LCSC" "C145162"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17616,6 +17629,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "650af433-d965-4113-9568-895c34324e43")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19651,7 +19677,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2k2"
 			(at 0 1 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19702,7 +19728,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C128549"
+		(property "LCSC" "C145162"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21530,7 +21556,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25890"
+		(property "LCSC" "C25879"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22556,6 +22582,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5446"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94988443-c8ca-4b8f-b70d-1d6950ab329a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -33556,7 +33595,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25765"
+		(property "LCSC" "C25762"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35838,7 +35877,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2k2"
 			(at 0 1 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35889,7 +35928,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C128549"
+		(property "LCSC" "C145162"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36125,7 +36164,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25765"
+		(property "LCSC" "C25762"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37051,7 +37090,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25765"
+		(property "LCSC" "C25762"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

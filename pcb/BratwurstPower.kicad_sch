@@ -7573,6 +7573,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6f1c283c-ec3f-4408-8ba6-70e82cad30eb")
 		)
@@ -9098,6 +9107,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 68.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dfe55c65-a848-4c3a-9176-67585e0063cc")
 		)
@@ -10430,6 +10448,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5446"
+			(at 78.74 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef16f4e8-7147-48f8-828e-a9e9f8a9459f")
 		)
@@ -10836,7 +10863,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3401A"
+		(property "Value" "HL3415A"
 			(at 50.8 20.32 90)
 			(effects
 				(font
@@ -10855,7 +10882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2407121622_hongjiacheng-HL3415A_C28646270.pdf"
 			(at 54.61 21.59 0)
 			(effects
 				(font
@@ -10874,7 +10901,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15127"
+		(property "LCSC" "C28646270"
 			(at 50.8 26.67 0)
 			(effects
 				(font
@@ -11556,7 +11583,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25890"
+		(property "LCSC" "C25879"
 			(at 105.41 74.93 0)
 			(effects
 				(font
@@ -11990,7 +12017,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25890"
+		(property "LCSC" "C25879"
 			(at 102.87 74.93 0)
 			(effects
 				(font
