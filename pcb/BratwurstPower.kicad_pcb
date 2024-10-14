@@ -43230,7 +43230,7 @@
 			)
 		)
 	)
-	(gr_text "7~17VDC\n4A MAX"
+	(gr_text "7~17VDC\n5A MAX"
 		(at 166.5 135.75 90)
 		(layer "F.SilkS")
 		(uuid "d817d5f8-513f-40e5-82c8-4d32506fcdce")
