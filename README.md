@@ -13,9 +13,11 @@ We sometimes face the problem that a normal Raspberry Pi power supply does not d
 
 This board can be mounted underneath a Raspberry Pi and deliver stable 5.x V with up to 3 A to it. 
 
-In addition to that it can supply two USB devices and another external device with also 5.x V and 3 A each, provided the input has enough power. 
+In addition to that it can supply two USB devices and another external device with also 5.x V and 3 A each, provided the input has enough power and the maximum input current does not surpass 5A. 
 
-Each outputs voltage can be calibrated from ~5.1 to ~5.5 V with a trimpot and the two USB outputs are passing USB2 signals from two USB-C connectors that can be hooked up to the Raspberry Pi. If you need USB3, you can use an external Y-cable. 
+Each outputs voltage can be calibrated from ~5.06 to ~5.6 V with a trimpot and the two USB outputs are passing USB2 signals from two USB-C connectors that can be hooked up to the Raspberry Pi. If you need USB3, you can use an external Y-cable. 
+
+The onboard circuitry is powered by its own 3.3V LDO regulator which is fed by the power rail for the Raspberry Pi since that one is always running. 
 
 There is an INA219 power monitor connected to the main input and each output with a 10mΩ shunt resistor to measure current and voltage. 
 
