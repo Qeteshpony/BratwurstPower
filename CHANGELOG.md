@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.1.0](https://github.com/Qeteshpony/BratwurstPower/compare/v2.0.0...v2.1.0) (2024-10-15)
+
+
+### Features
+
+* add 3.3V LDO for I2C circuitry ([2b5c3bb](https://github.com/Qeteshpony/BratwurstPower/commit/2b5c3bbb7843f55926b5f1e81e538d522e31e35b))
+* optional connection RaspiEN to IO1 ([70316f4](https://github.com/Qeteshpony/BratwurstPower/commit/70316f4371bf1865683d0fed5eac409bfbf7f759))
+
+
+### Bug Fixes
+
+* add thermal relief to USB ports ([c1cdf07](https://github.com/Qeteshpony/BratwurstPower/commit/c1cdf074c5c48fcf30c5e46d3135f11b78604dbd))
+* change pots to 2.2kΩ ([30dea97](https://github.com/Qeteshpony/BratwurstPower/commit/30dea97b3c8bd866a6abc039f84854dd3e50c406))
+* few missing gnd vias ([faeb505](https://github.com/Qeteshpony/BratwurstPower/commit/faeb505406acb9fb4c7d40617cce8159f10d0e6d))
+* part numbers ([30dea97](https://github.com/Qeteshpony/BratwurstPower/commit/30dea97b3c8bd866a6abc039f84854dd3e50c406))
+
 ## [2.0.0](https://github.com/Qeteshpony/BratwurstPower/compare/v1.0.0...v2.0.0) (2024-10-13)
 
 
