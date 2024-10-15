@@ -4363,6 +4363,12 @@
 		(uuid "03dcbf2f-dc68-4916-9814-f3d41fb738a5")
 	)
 	(junction
+		(at 143.51 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "041496bf-d23a-4555-930c-3bc93940d8b4")
+	)
+	(junction
 		(at 246.38 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4736,6 +4742,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 52.07) (xy 143.51 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d025a5-235f-47fb-a59f-2d551f89c224")
+	)
+	(wire
+		(pts
 			(xy 217.17 39.37) (xy 233.68 39.37)
 		)
 		(stroke
@@ -4903,6 +4919,16 @@
 			(type default)
 		)
 		(uuid "273c68e7-8e4e-4017-9e75-5ae157bacecf")
+	)
+	(wire
+		(pts
+			(xy 143.51 41.91) (xy 143.51 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2927b6a3-4c05-4b61-99f1-2cb6c972b87c")
 	)
 	(wire
 		(pts
@@ -6399,6 +6425,17 @@
 			(justify left bottom)
 		)
 		(uuid "0d836e58-f688-4ffc-a22c-d8bce20f8fc8")
+	)
+	(label "IO1"
+		(at 143.51 54.61 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17236c53-ab92-42cc-9b6f-094ee5f78f88")
 	)
 	(label "IO3"
 		(at 73.66 151.13 0)
@@ -10615,6 +10652,76 @@
 			(project "RaspiPowerSupply"
 				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 143.51 48.26 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0ed31c3-8ede-43d6-b19f-c7b7402d133a")
+		(property "Reference" "JP4"
+			(at 140.97 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RaspiEN"
+			(at 140.97 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 143.51 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 143.51 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e412e672-03d2-413e-aeb8-50f80e33a25c")
+		)
+		(pin "1"
+			(uuid "71c50628-08d8-4d1a-88d3-950077ce2970")
+		)
+		(instances
+			(project "BratwurstPower"
+				(path "/d3b20f0a-e666-4f64-bba3-6679d961a6dd"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
