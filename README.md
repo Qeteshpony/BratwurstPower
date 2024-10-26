@@ -73,3 +73,7 @@ Each voltage channel has a solder jumper to force-enable it. The USB power rails
 | RV2 | Calibration Potentiometer for the USB1 power supply. |
 | RV3 | Calibration Potentiometer for the USB2 power supply. |
 | RV4 | Calibration Potentiometer for the EXT power supply. |
+
+### Software
+
+Example software to control and monitor this device with Home Assistant can be found [here](https://github.com/Qeteshpony/BratwurstPower.py).
